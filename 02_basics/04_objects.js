@@ -18,4 +18,13 @@ const regularUser = {
     }
 }
 
-console.log(regularUser.fullname);
+// console.log(regularUser.fullname);
+
+
+const course = {
+    coursename :"chai aur code",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+const {courseInstructor: instructor} = course
+console.log(instructor);
