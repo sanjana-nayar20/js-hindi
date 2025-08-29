@@ -1,0 +1,11 @@
+//Immediately Invoked Function Expressions (IIFE)
+
+//named iife
+(function chai(){
+    console.log(`DB connected`);    
+})();
+
+//unnamaed iife
+((name) => {
+    console.log(`DB connected 2`);
+})()
