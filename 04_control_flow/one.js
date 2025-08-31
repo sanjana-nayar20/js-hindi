@@ -32,6 +32,7 @@ const balance = 1000
 
 // if (balance>500) console.log("test"),console.log("test2");
 
+/*
 if (balance>250) {
     console.log("less than");  
 } else if (balance>500) {
@@ -42,3 +43,5 @@ else if (balance>800) {
  } else {
     console.log("great than");    
 }
+*/
+
